@@ -1,0 +1,15 @@
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\MailSender.exe.config
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\MailSender.exe
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\MailSender.pdb
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.csprojAssemblyReference.cache
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MainWindow.g.cs
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\App.g.cs
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender_MarkupCompile.cache
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender_MarkupCompile.lref
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MainWindow.baml
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.g.resources
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.Properties.Resources.resources
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.csproj.GenerateResource.cache
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.csproj.CoreCompileInputs.cache
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.exe
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.pdb
