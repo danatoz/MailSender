@@ -13,3 +13,8 @@ C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.csproj.Generat
 C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.csproj.CoreCompileInputs.cache
 C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.exe
 C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.pdb
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\CodePasswordDLL.dll
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\TabSwitcher.dll
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\TabSwitcher.pdb
+C:\Users\Dante\Desktop\MailSender\MailSender\bin\Debug\CodePasswordDLL.pdb
+C:\Users\Dante\Desktop\MailSender\MailSender\obj\Debug\MailSender.csproj.CopyComplete
