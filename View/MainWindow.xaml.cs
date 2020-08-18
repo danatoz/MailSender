@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
+using MailSender.ViewModel;
 
 namespace MailSender
 {
@@ -17,8 +19,12 @@ namespace MailSender
             cbSenderSelect.DisplayMemberPath = "Key";
             cbSenderSelect.SelectedValuePath = "Value";
 
-            DBClass db = new DBClass();
-            dgEmails.ItemsSource = db.Emails;
+            cbSmtpSelect.ItemsSource = VariablesClass.SmtpServers;
+            cbSmtpSelect.DisplayMemberPath = "Key";
+            cbSmtpSelect.SelectedValuePath = "Value";
+
+            //DBClass db = new DBClass();
+            //dgEmails.ItemsSource = db.Emails;
         }
 
         private void MiClose_OnClick(object sender, RoutedEventArgs e)
@@ -47,7 +53,8 @@ namespace MailSender
                 return;
             }
             EmailSendServiceClass emailSender = new EmailSendServiceClass(strLogin,strPassword);
-            emailSender.SendMails((IQueryable<Email>)dgEmails.ItemsSource);
+            var locator = (ViewModelLocator) FindResource("Locator");
+            emailSender.SendMails(locator.Main.Emails);
         }
 
         private void BtnSend_OnClick(object sender, RoutedEventArgs e)
@@ -67,7 +74,8 @@ namespace MailSender
                 return;
             }
             EmailSendServiceClass emailSender = new EmailSendServiceClass(cbSenderSelect.Text, cbSenderSelect.SelectedValue.ToString());
-            sc.SendEmails(dtSendDateTime, emailSender, (IQueryable<Email>)dgEmails.ItemsSource);
+            var locator = (ViewModelLocator) FindResource("Locator");
+            sc.SendEmails(dtSendDateTime, emailSender, locator.Main.Emails);
         }
 
         private void TabSwitcherControl_OnBack(object sender, RoutedEventArgs e)
@@ -80,6 +88,12 @@ namespace MailSender
         {
             if (tabControl.SelectedIndex == tabControl.Items.Count - 1) return;
             tabControl.SelectedIndex++;
+        }
+
+        private void MenuAbout_OnClick(object sender, RoutedEventArgs e)
+        {
+            AboutBox a = new AboutBox();
+            a.Show();
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Dante\Desktop\MailSender\MailSender\App.xaml
-11151548125
+3-1900399174
 
-16-442720325
-161261345418
-MainWindow.xaml;
+23-1594934525
+127-2075118072
+View\MainWindow.xaml;View\EmailInfoView.xaml;View\SaveEmailView.xaml;
 
-True
+False
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
@@ -47,7 +48,7 @@ namespace MailSender
             }
         }
 
-        public void SendMails(IQueryable<Email> emails)
+        public void SendMails(ObservableCollection<Email> emails)
         {
             foreach (Email email in emails)
             {
